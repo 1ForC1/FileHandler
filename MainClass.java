@@ -37,7 +37,7 @@ public class MainClass {
             // Сортировка
             externalSort(j.getSelectedFile(),
                     new File(Paths.get("").toAbsolutePath().toString() + "/sorted_" + j.getSelectedFile().getName()),
-                    3);
+                    300);
 
             // Удаление директории и временных файлов
             if (directory.exists()) {
